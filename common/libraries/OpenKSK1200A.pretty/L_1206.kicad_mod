@@ -1,0 +1,189 @@
+(footprint "L_1206"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "inductor")
+	(property "Reference" "REF**"
+		(at 0 -1.9 0)
+		(layer "F.SilkS")
+		(uuid "ce88631a-f747-479e-b5c7-fa406a3c9908")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_1206"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "c92bbfed-6e83-4b89-82f6-f639d7352618")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "587671f4-3260-4c25-a689-5a6c019cd832")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77e87d00-4ad0-4835-8cbe-e5e3c0699328")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -0.14971 0.724404) (xy -0.026681 0.604339) (xy 0.03928 0.55246) (xy 0.068353 0.474545) (xy 0.017955 0.335211)
+			(xy -0.025031 0.2) (xy -0.108108 -0.079959) (xy -0.143613 -0.266594) (xy -0.147943 -0.4606) (xy -0.077126 -0.73059)
+			(xy 0.020248 -0.947467) (xy 0.144177 -1.093526) (xy 0.312368 -0.863371) (xy 0.383185 -0.659773) (xy 0.419566 -0.501603)
+			(xy 0.421345 -0.366419) (xy 0.407115 -0.217006) (xy 0.361844 -0.022018) (xy 0.286248 0.118798) (xy 0.238815 0.2107)
+			(xy 0.158772 0.376716) (xy 0.148396 0.514567) (xy 0.659765 0.903307) (xy 0.553041 0.8286) (xy 0.333513 0.650537)
+			(xy 0.163051 0.540601) (xy -0.362651 0.905442)
+		)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2cf34f46-5a77-4b70-ae49-c54d2e7b26bf")
+	)
+	(fp_line
+		(start -2.35 -1.2)
+		(end 2.35 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6221c6d9-a647-4dcd-a052-20c5127b7c67")
+	)
+	(fp_line
+		(start -2.35 1.2)
+		(end -2.35 -1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1d9868f1-bf9b-4dd5-a878-38fdb7bf10d5")
+	)
+	(fp_line
+		(start 2.35 -1.2)
+		(end 2.35 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc318fb2-43e4-478a-8102-495094f9bd30")
+	)
+	(fp_line
+		(start 2.35 1.2)
+		(end -2.35 1.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "294de620-709a-459e-bdd5-d5219d4ec2d5")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb679ef3-1eb2-44ce-bef4-8b518fbbd3aa")
+	)
+	(fp_line
+		(start -0.6 -1)
+		(end 0.8 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0adbd389-cc06-445f-9925-2e85892cd7a6")
+	)
+	(fp_line
+		(start 0.835242 0.8)
+		(end -0.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7510fc94-a390-4bfa-89e0-d3cb795dc6a9")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b709af46-3c2b-4509-a32a-a90061119877")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 3.8 0)
+		(layer "F.Fab")
+		(uuid "c925396c-399a-4a54-b615-250850c2ffbc")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.592621 -0.125)
+		(size 1.514758 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "e214a9c6-5033-4abe-ae7f-9a741945014a")
+	)
+	(pad "2" smd roundrect
+		(at 1.879785 -0.125)
+		(size 1.514758 2.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.238095)
+		(uuid "d137d5c2-1ad4-4977-9fbb-e4ebfaaefedd")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_1206_3216Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,1822 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b026b169-203c-4e5d-882b-3fb0e948d56a")
+	(paper "A4")
+	(title_block
+		(title "OpenKSK CMK-81X")
+		(date "2025-11-17")
+		(rev "A")
+		(company "License: CERN-OHL-S")
+		(comment 1 "This Document Is Not Endorsed By Sony or Sega")
+		(comment 2 "Documented by starlightk7 for Repair Usage")
+		(comment 3 "Originally Designed By Sony. ")
+		(comment 4 "Commonly Used in Sega CD Model 1, NTSC")
+	)
+	(lib_symbols
+		(symbol "OpenKSK1200A:CN2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN1"
+				(at -14.732 1.778 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+					(hide yes)
+				)
+			)
+			(property "Value" "~"
+				(at -1.27 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "OpenKSK1200A:CN2"
+				(at -12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -12.7 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CN2_0_1"
+				(rectangle
+					(start -12.7 2.54)
+					(end 12.7 -2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CN2_1_1"
+				(pin power_out line
+					(at -10.16 -2.54 270)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 -2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 270)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 270)
+					(length 2.54)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 270)
+					(length 2.54)
+					(name "LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenKSK1200A:LimitSwitch"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 22.352 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -11.43 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -11.43 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -11.43 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -11.43 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LimitSwitch_0_1"
+				(rectangle
+					(start -24.13 8.89)
+					(end 24.13 -11.43)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.05 2.54) (xy -19.05 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -19.05 2.54)
+					(mid -16.51 3.5921)
+					(end -13.97 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -13.97 -6.35)
+					(mid -16.51 -7.4021)
+					(end -19.05 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13.97 2.54) (xy -13.97 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -8.89 3.81)
+					(radius 2.8398)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.27) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.08 -1.27)
+					(mid -3.175 -0.4809)
+					(end -1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.27 -7.62)
+					(mid -3.175 -8.4091)
+					(end -5.08 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.27 5.08)
+					(mid 3.175 5.8691)
+					(end 5.08 5.08)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 -1.27)
+					(mid 3.175 -2.0591)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 8.89 -6.35)
+					(radius 2.8398)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 2.54) (xy 13.97 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 13.97 2.54)
+					(mid 16.51 3.5921)
+					(end 19.05 2.54)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 19.05 -6.35)
+					(mid 16.51 -7.4021)
+					(end 13.97 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 2.54) (xy 19.05 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LimitSwitch_1_1"
+				(pin output line
+					(at -3.81 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "OpenKSK1200A:Motor 2P"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Motor 2P_0_1"
+				(polyline
+					(pts
+						(xy -24.13 -1.27) (xy -19.05 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -22.86 3.81) (xy -20.32 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -24.1298 -1.27)
+					(mid -24.6559 0)
+					(end -24.1298 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -19.05 1.27)
+					(mid -18.5239 0)
+					(end -19.05 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -19.05 1.27) (xy -24.13 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.8398)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.05 -1.27) (xy 24.13 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 3.81) (xy 22.86 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 19.0502 -1.27)
+					(mid 18.5241 0)
+					(end 19.0502 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 21.59 5.08) (xy 21.59 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 24.13 1.27)
+					(mid 24.6561 0)
+					(end 24.13 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.13 1.27) (xy 19.05 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 25.4 -1.27)
+					(mid 25.4 -1.27)
+					(end 25.4 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor 2P_1_1"
+				(circle
+					(center 0 0)
+					(radius 29.6484)
+					(stroke
+						(width 0)
+						(type dash_dot_dot)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at -19.05 1.27 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 19.05 -1.27 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(arc
+		(start 88.9 97.79)
+		(mid 82.4872 95.25)
+		(end 88.9 92.71)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0a4e49c1-755b-4a59-9353-e281db599760)
+	)
+	(circle
+		(center 153.924 73.406)
+		(radius 7.3835)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 11aa3eb3-0b3e-4d6d-9452-ffe8dc49e9a7)
+	)
+	(bezier
+		(pts
+			(xy 58.42 64.77) (xy 40.64 69.85) (xy 24.13 72.39) (xy 24.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9893f691-6d7f-466f-9dce-08ac0fedba4e)
+	)
+	(text "Short when tray\nis closed"
+		(exclude_from_sim no)
+		(at 96.012 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "22758940-7887-49f4-8780-a57c198d9bf3")
+	)
+	(text "Tray Open\nLimit Switch"
+		(exclude_from_sim no)
+		(at 70.612 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "380d7e06-d300-4e8d-ab25-af64796aea67")
+	)
+	(text "CMK-81X"
+		(exclude_from_sim no)
+		(at 199.644 127 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "5e8e0aeb-c9ef-4f64-9011-25d8c9a16717")
+	)
+	(text "Desolder Motor\nTo Detach Board"
+		(exclude_from_sim no)
+		(at 250.444 112.776 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "5f94e5e7-f25f-40ad-9a1e-af992d865fc3")
+	)
+	(text "The tray closed\nswitch will fail\nto assert if the\nbelt is bad."
+		(exclude_from_sim no)
+		(at 116.84 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "79b683b5-66ea-4cb4-bb8b-a2388b12a3d2")
+	)
+	(text "Tray Motor"
+		(exclude_from_sim no)
+		(at 250.19 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "a4b5c827-9153-4e64-96ce-d8c53e35c96d")
+	)
+	(text "After desoldering the\nmotor, push this tab in\nand start to lift up gently"
+		(exclude_from_sim no)
+		(at 188.722 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "b3931736-342b-4355-9eca-aa33782c0f02")
+	)
+	(text "Tray Closed\nLimit Switch"
+		(exclude_from_sim no)
+		(at 105.41 124.206 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d94f7719-5a31-463a-847d-dc663a5a1b43")
+	)
+	(text "After clearing the center\ntab, pinch the tab between\nthe limit switches to the\nleft to finish removing\nthe board."
+		(exclude_from_sim no)
+		(at 116.078 115.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e1653b35-d7bf-487c-b081-48757e016c7f")
+	)
+	(text "Short when tray\nis open"
+		(exclude_from_sim no)
+		(at 61.722 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "efc78b48-1e88-4dc0-8186-1502b9d96dbf")
+	)
+	(junction
+		(at 73.66 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe96be4-b850-47f3-bd56-ad3782e127dc")
+	)
+	(junction
+		(at 36.83 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6bcbd44-624e-4328-a847-a5508234b689")
+	)
+	(wire
+		(pts
+			(xy 27.94 115.57) (xy 27.94 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004f1f19-159c-46b8-b0f0-d8ee99ec1697")
+	)
+	(wire
+		(pts
+			(xy 39.37 105.41) (xy 48.26 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a301ad-c9ab-4532-815d-02f7c5439fc2")
+	)
+	(polyline
+		(pts
+			(xy 187.96 97.79) (xy 187.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc0beff-1430-45bb-acab-6da10fd45fb5")
+	)
+	(polyline
+		(pts
+			(xy 58.42 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d52703-eebc-4fd9-b821-537e4101bd85")
+	)
+	(wire
+		(pts
+			(xy 173.99 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11628d3c-226f-48ed-ae57-e9bb9abb47d2")
+	)
+	(polyline
+		(pts
+			(xy 209.55 104.14) (xy 209.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15720991-11f9-4859-9fd9-f33825f8d19e")
+	)
+	(polyline
+		(pts
+			(xy 24.13 132.08) (xy 276.86 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d01339-23f4-4201-ab02-e2a468f0a547")
+	)
+	(polyline
+		(pts
+			(xy 168.91 64.77) (xy 276.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1826f2f5-d4aa-4c15-9ceb-5ec24fe180aa")
+	)
+	(wire
+		(pts
+			(xy 48.26 100.33) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d270aa-23c4-4ecf-86e5-a53ae5c2d3b3")
+	)
+	(wire
+		(pts
+			(xy 186.69 123.19) (xy 213.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1911cc48-02a1-468b-9b6b-6dceee962090")
+	)
+	(wire
+		(pts
+			(xy 39.37 102.87) (xy 39.37 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "196668b9-3484-4bed-9c49-0eccb54b3537")
+	)
+	(wire
+		(pts
+			(xy 53.34 73.66) (xy 53.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7d6ffc-401c-47de-8d71-130b258ebf08")
+	)
+	(wire
+		(pts
+			(xy 39.37 127) (xy 186.69 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a29e2f6-0118-477c-a751-3adb3c770587")
+	)
+	(wire
+		(pts
+			(xy 39.37 118.11) (xy 39.37 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d087b30-b6d1-4682-b3aa-b5628a235580")
+	)
+	(wire
+		(pts
+			(xy 36.83 107.95) (xy 39.37 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30ecb6bb-20c7-4217-b33f-ca75fabb394a")
+	)
+	(wire
+		(pts
+			(xy 36.83 97.79) (xy 39.37 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d3e1dc-4478-48e4-bf34-38798a6adb60")
+	)
+	(wire
+		(pts
+			(xy 36.83 115.57) (xy 27.94 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32950a1d-e60d-4de6-a810-1dd3a1f19ba2")
+	)
+	(polyline
+		(pts
+			(xy 196.85 104.14) (xy 209.55 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37d847af-dd33-482f-9694-3bbe2d60ce80")
+	)
+	(wire
+		(pts
+			(xy 36.83 113.03) (xy 36.83 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdd0552-94e0-41c7-90a5-fbcbaa641f5b")
+	)
+	(wire
+		(pts
+			(xy 39.37 97.79) (xy 39.37 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f88849-6267-4587-b546-01499150224a")
+	)
+	(wire
+		(pts
+			(xy 36.83 118.11) (xy 39.37 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4471e9c2-bbb4-434f-a20c-1d76735b7c54")
+	)
+	(polyline
+		(pts
+			(xy 187.96 101.6) (xy 196.85 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ac6e27-45e4-444d-aeff-1d521997a994")
+	)
+	(wire
+		(pts
+			(xy 44.45 92.71) (xy 73.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488891d1-8d60-4c8a-9f09-de32d4c5c992")
+	)
+	(polyline
+		(pts
+			(xy 187.96 97.79) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d87f679-9b03-4d86-83eb-7d4c726ae2b1")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 80.01 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e26728f-a5e5-427f-9656-7c2a30b83f4c")
+	)
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 173.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f969a75-b11d-44c5-aabb-85c6387926cc")
+	)
+	(wire
+		(pts
+			(xy 39.37 100.33) (xy 44.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff2f351-3808-4d1a-8bd1-b8f963f8a360")
+	)
+	(wire
+		(pts
+			(xy 73.66 92.71) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b92354-73b8-4efc-ae60-a6b6596a32e7")
+	)
+	(polyline
+		(pts
+			(xy 196.85 101.6) (xy 196.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6078b71d-0f7d-4e0b-b2c8-2c7ede10719a")
+	)
+	(polyline
+		(pts
+			(xy 88.9 97.79) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bc501bd-65e8-4130-9eb2-616a8dce5685")
+	)
+	(wire
+		(pts
+			(xy 39.37 107.95) (xy 39.37 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebf8e46-5691-4197-98f3-8c0e4ed177bb")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 135.89 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7012b1f2-5a0d-4e0c-846f-3244387ed173")
+	)
+	(wire
+		(pts
+			(xy 39.37 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cb25d32-5445-4d73-89ce-fba8dc1d9519")
+	)
+	(wire
+		(pts
+			(xy 231.14 71.12) (xy 231.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "871ecec4-62b4-4be4-8503-da92cc032710")
+	)
+	(polyline
+		(pts
+			(xy 91.44 92.71) (xy 91.44 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b029110-b1e7-4f96-aed1-fed8d899ea8b")
+	)
+	(wire
+		(pts
+			(xy 36.83 102.87) (xy 39.37 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92209bea-43f8-46df-8530-d7dc5cf8d156")
+	)
+	(wire
+		(pts
+			(xy 100.33 100.33) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93276736-ed69-4e96-b86d-163193cd3d34")
+	)
+	(wire
+		(pts
+			(xy 80.01 105.41) (xy 100.33 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9578fb80-8145-481b-af21-a8fdec2eeec0")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 48.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a261f6ad-874f-4355-b5a4-f4a519f2d6fa")
+	)
+	(wire
+		(pts
+			(xy 44.45 100.33) (xy 44.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa4b5daf-1c8a-4a14-be4d-aa4da00c8f22")
+	)
+	(polyline
+		(pts
+			(xy 88.9 92.71) (xy 91.44 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af292ef8-f737-4300-a5c5-6258369bd386")
+	)
+	(wire
+		(pts
+			(xy 107.95 85.09) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a21dbb-d19b-4694-81dd-359981de6e3c")
+	)
+	(wire
+		(pts
+			(xy 269.24 91.44) (xy 269.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6b98d3c-2e12-4f22-aa4c-b234b250cc15")
+	)
+	(wire
+		(pts
+			(xy 135.89 68.58) (xy 135.89 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8f2e1e5-bd1a-4593-a5d4-c86d3cb61bfc")
+	)
+	(wire
+		(pts
+			(xy 135.89 82.55) (xy 173.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ac474a-ba85-4666-a038-23cfdd289695")
+	)
+	(wire
+		(pts
+			(xy 186.69 127) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e509c23d-de78-40f9-b0f4-ae21b4caef1e")
+	)
+	(polyline
+		(pts
+			(xy 24.13 72.39) (xy 24.13 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e722b335-a651-48f2-97fb-9729b110ecb7")
+	)
+	(wire
+		(pts
+			(xy 27.94 73.66) (xy 53.34 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8428a67-14de-4713-9a4f-ff2ed115ce2c")
+	)
+	(wire
+		(pts
+			(xy 36.83 113.03) (xy 39.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89fcb4c-cb8c-40cc-94ca-5734d221f519")
+	)
+	(polyline
+		(pts
+			(xy 196.85 95.25) (xy 196.85 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed82d2dd-8cb4-4d43-afff-fddb47a54b29")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed9500d7-d537-4a57-a8eb-53a3af328568")
+	)
+	(wire
+		(pts
+			(xy 213.36 123.19) (xy 213.36 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5f2367-d4fd-4be8-ae2b-9e39f8779636")
+	)
+	(wire
+		(pts
+			(xy 213.36 128.27) (xy 269.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59be5f5-f27f-4d72-b7b3-b663d7a593fe")
+	)
+	(polyline
+		(pts
+			(xy 276.86 132.08) (xy 276.86 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8367d66-ca11-4ca5-8d09-0c66a425b9f3")
+	)
+	(polyline
+		(pts
+			(xy 209.55 95.25) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb342aa7-7e91-4f3d-a361-30d0d9b07cc9")
+	)
+	(symbol
+		(lib_id "OpenKSK1200A:LimitSwitch")
+		(at 105.41 96.52 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34d2f4fc-9d55-40ed-842f-a208c658c51d")
+		(property "Reference" "S2"
+			(at 106.172 122.428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 92.71 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenKSK1200A:LimitSwitch"
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "af45a6df-e117-48eb-baa1-7435277fd43b")
+		)
+		(pin "1"
+			(uuid "f8c2168a-2750-4ace-85e2-b2c6edd748e0")
+		)
+		(instances
+			(project ""
+				(path "/b026b169-203c-4e5d-882b-3fb0e948d56a"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenKSK1200A:LimitSwitch")
+		(at 68.58 96.52 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44b12156-178d-44f2-a33e-ee9c760f6214")
+		(property "Reference" "S1"
+			(at 67.056 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 81.28 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "OpenKSK1200A:LimitSwitch"
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84cfa7c8-7675-498f-917a-93a59507c3c8")
+		)
+		(pin "1"
+			(uuid "1d43c542-add7-40a5-83a2-a39725a96ae9")
+		)
+		(instances
+			(project ""
+				(path "/b026b169-203c-4e5d-882b-3fb0e948d56a"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenKSK1200A:Motor 2P")
+		(at 250.19 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "857a9d0d-6bbd-4840-afb9-5e640186d9e5")
+		(property "Reference" "M1"
+			(at 248.92 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 280.67 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "OpenKSK1200A:Eject Motor"
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "563fc16d-079d-4bcc-b667-c878c7515441")
+		)
+		(pin "2"
+			(uuid "0f9f961d-f886-420d-9d67-8d85d0c9a6e4")
+		)
+		(instances
+			(project ""
+				(path "/b026b169-203c-4e5d-882b-3fb0e948d56a"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "OpenKSK1200A:CN2")
+		(at 34.29 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdc5cf50-3ff8-4c4d-9387-0f6d92ae9862")
+		(property "Reference" "CN1"
+			(at 32.512 122.682 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "~"
+			(at 40.64 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "OpenKSK1200A:CN2"
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e640ce6d-c831-474a-8f3c-3e4b0dbf878f")
+		)
+		(pin "1"
+			(uuid "dcad9b31-b65a-4444-8f05-baac863b112d")
+		)
+		(pin "3"
+			(uuid "a020b152-ba6d-42dd-9940-244b5225345b")
+		)
+		(pin "5"
+			(uuid "4994b1d8-b3df-4456-b121-93366ea5d1ff")
+		)
+		(pin "4"
+			(uuid "fac3ba0c-442c-49a1-b081-239653050179")
+		)
+		(instances
+			(project ""
+				(path "/b026b169-203c-4e5d-882b-3fb0e948d56a"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
